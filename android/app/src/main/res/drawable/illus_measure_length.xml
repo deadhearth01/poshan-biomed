@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Infantometer: baby lying down, head against the fixed board, legs extended to the slider. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="140dp"
+    android:viewportWidth="240"
+    android:viewportHeight="140">
+
+    <!-- board -->
+    <path
+        android:fillColor="#E4F5F0"
+        android:pathData="M12,96h216v26H12z" />
+    <path
+        android:fillColor="#0E6B5C"
+        android:pathData="M12,92h216v6H12z" />
+
+    <!-- ruler ticks -->
+    <path android:fillColor="#8FBDB2" android:pathData="M40,100h2v10h-2z" />
+    <path android:fillColor="#8FBDB2" android:pathData="M70,100h2v10h-2z" />
+    <path android:fillColor="#8FBDB2" android:pathData="M100,100h2v10h-2z" />
+    <path android:fillColor="#8FBDB2" android:pathData="M130,100h2v10h-2z" />
+    <path android:fillColor="#8FBDB2" android:pathData="M160,100h2v10h-2z" />
+
+    <!-- head board (fixed) -->
+    <path android:fillColor="#0E6B5C" android:pathData="M18,52h8v40h-8z" />
+
+    <!-- baby -->
+    <path android:fillColor="#FFD9A8" android:pathData="M44,72m-14,0a14,14 0 1,0 28,0a14,14 0 1,0 -28,0" />
+    <path android:fillColor="#9BE7D2" android:pathData="M60,62h74a10,10 0 0 1 10,10v10a10,10 0 0 1 -10,10H60z" />
+    <path android:fillColor="#FFD9A8" android:pathData="M144,70h30v16h-30z" />
+    <path android:fillColor="#2B2B2B" android:pathData="M48,68a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- foot slider (movable) -->
+    <path android:fillColor="#C4462A" android:pathData="M176,50h10v44h-10z" />
+
+    <!-- measurement arrow -->
+    <path android:fillColor="#B87414" android:pathData="M26,58h150v3H26z" />
+    <path android:fillColor="#B87414" android:pathData="M26,52l10,8 -10,8z" />
+    <path android:fillColor="#B87414" android:pathData="M176,52l-10,8 10,8z" />
+</vector>

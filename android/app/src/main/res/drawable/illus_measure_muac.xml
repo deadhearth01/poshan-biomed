@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- MUAC: tape around the mid-point between shoulder tip and elbow tip, left arm relaxed. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="140dp"
+    android:viewportWidth="240"
+    android:viewportHeight="140">
+
+    <!-- upper arm -->
+    <path android:fillColor="#FFD9A8" android:pathData="M78,36h44a18,18 0 0 1 18,18v32a18,18 0 0 1 -18,18H78z" />
+    <!-- forearm -->
+    <path android:fillColor="#FFD9A8" android:pathData="M140,88h52a14,14 0 0 1 14,14v18a14,14 0 0 1 -14,14h-52z" />
+    <!-- shoulder -->
+    <path android:fillColor="#9BE7D2" android:pathData="M40,30h44v80H40z" />
+
+    <!-- tape band around the mid-upper arm -->
+    <path android:fillColor="#0E6B5C" android:pathData="M74,64h70v16H74z" />
+    <path android:fillColor="#E4F5F0" android:pathData="M74,68h70v3H74z" />
+    <!-- tape tail -->
+    <path android:fillColor="#8FBDB2" android:pathData="M144,66h58v12h-58z" />
+
+    <!-- midpoint marker between shoulder tip and elbow tip -->
+    <path android:fillColor="#C4462A" android:pathData="M107,20h6v104h-6z" />
+    <path android:fillColor="#B87414" android:pathData="M84,12h52v3H84z" />
+    <path android:fillColor="#B87414" android:pathData="M84,8l8,5.5 -8,5.5z" />
+    <path android:fillColor="#B87414" android:pathData="M136,8l-8,5.5 8,5.5z" />
+</vector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Only the reports cache directory is exposed.
+
+  Deliberately narrow: this app holds identifiable child health records, and a broad
+  <files-path path="."> would hand any app that receives a share intent a handle to the whole
+  private store. Generated PDFs are transient artefacts; the record itself stays unreachable.
+-->
+<paths>
+    <cache-path name="reports" path="reports/" />
+</paths>

@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poshan</string>
+    <string name="app_tagline">Early Childhood Development &amp; Nutrition Screening</string>
+
+    <!-- Languages -->
+    <string name="language">Language</string>
+    <string name="language_english">English</string>
+    <string name="language_hindi">हिन्दी</string>
+    <string name="language_telugu">తెలుగు</string>
+    <string name="select_language">Select your language</string>
+
+    <!-- Common -->
+    <string name="continue_label">Continue</string>
+    <string name="save">Save</string>
+    <string name="submit">Submit</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="not_sure">Not sure</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="cancel">Cancel</string>
+    <string name="retry">Retry</string>
+    <string name="loading">Loading…</string>
+    <string name="optional">Optional</string>
+    <string name="required">Required</string>
+
+    <!-- Domain vocabulary -->
+    <string name="welcome">Welcome</string>
+    <string name="child_profile">Child Profile</string>
+    <string name="development">Development</string>
+    <string name="growth">Growth</string>
+    <string name="milestones">Milestones</string>
+    <string name="immunization">Immunization</string>
+    <string name="assessment">Assessment</string>
+    <string name="parent_caregiver">Parent/Caregiver</string>
+    <string name="healthcare_worker">Healthcare Worker</string>
+    <string name="pediatrician">Pediatrician</string>
+    <string name="physiotherapist">Physiotherapist</string>
+
+    <string name="completed">Completed</string>
+    <string name="delayed">Delayed</string>
+    <string name="concern_identified">Concern identified</string>
+    <string name="doctor_review_recommended">Doctor review recommended</string>
+    <string name="next_assessment">Next assessment</string>
+    <string name="growth_monitoring">Growth monitoring</string>
+    <string name="developmental_monitoring">Developmental monitoring</string>
+    <string name="priority_review">Priority Review</string>
+    <string name="no_concern">No concern</string>
+    <string name="at_risk">At risk</string>
+    <string name="follow_up">Follow-up</string>
+    <string name="reassessment">Reassessment</string>
+    <string name="needs_review">Needs review</string>
+
+    <!-- Onboarding -->
+    <string name="app_guide">App Guide</string>
+    <string name="phone_login">Phone number login</string>
+    <string name="guest_login">Guest login (Offline)</string>
+    <string name="consent_privacy">Consent and Privacy agreements</string>
+    <string name="consent_body">This app helps you screen a child\'s development, growth and nutrition. It is a screening tool — not a diagnosis. You can use it offline. Your data stays on this device unless you choose to sign in and sync.</string>
+    <string name="i_agree">I agree</string>
+    <string name="user_type">Who are you?</string>
+    <string name="user_type_parent">Parent</string>
+    <string name="user_type_parent_desc">Screening at home for my child</string>
+    <string name="user_type_anganwadi">Anganwadi centre</string>
+    <string name="user_type_anganwadi_desc">Community screening and child lists</string>
+    <string name="user_type_healthcare">Healthcare facility</string>
+    <string name="user_type_healthcare_desc">Clinical review and flagged cases</string>
+
+    <!-- Profiles -->
+    <string name="parent_profile">Parent Profile</string>
+    <string name="worker_profile">Worker Profile</string>
+    <string name="facility_profile">Health Facility Profile</string>
+    <string name="parent_name">Parent name</string>
+    <string name="relationship_with_child">Relationship with child</string>
+    <string name="relationship_mother">Mother</string>
+    <string name="relationship_father">Father</string>
+    <string name="relationship_grandmother">Grandmother</string>
+    <string name="relationship_grandfather">Grandfather</string>
+    <string name="relationship_sibling">Sibling</string>
+    <string name="relationship_aunt">Aunt</string>
+    <string name="relationship_uncle">Uncle</string>
+    <string name="relationship_guardian">Legal guardian</string>
+    <string name="specify_other">Please specify</string>
+    <string name="mobile_number">Mobile number</string>
+    <string name="location">Location</string>
+    <string name="use_gps">Use current location (GPS)</string>
+    <string name="enter_manually">Enter manually</string>
+    <string name="worker_name">Worker name</string>
+    <string name="anganwadi_centre_name">Anganwadi centre name</string>
+    <string name="anganwadi_centre_code">Anganwadi centre code (11 digit)</string>
+    <string name="facility_name">Health facility name</string>
+    <string name="hfr_id">Health Facility ID (HFR ID)</string>
+    <string name="employee_id_and_name">Employee ID and name</string>
+    <string name="create_profile">Create profile</string>
+
+    <!-- Children -->
+    <string name="my_child">My Child</string>
+    <string name="child_list">Child List</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="centre_data">Centre Data</string>
+    <string name="flagged_cases">Check-up flagged cases</string>
+    <string name="add_child">Add child</string>
+    <string name="child_name">Child name</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="sex_at_birth">Sex at birth</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="born_prematurely">Born prematurely?</string>
+    <string name="gestational_age_weeks">Gestational age (weeks)</string>
+    <string name="village_area">Village / area</string>
+    <string name="child_id">Child ID</string>
+    <string name="no_children_yet">No children added yet</string>
+    <string name="select_child">Select / Confirm Child</string>
+    <string name="start_assessment">Start assessment</string>
+
+    <!-- Assessment -->
+    <string name="step_assessment">STEP Surveillance</string>
+    <string name="start_step_assessment">Start STEP Assessment</string>
+    <string name="is_child_info_complete">Is child information complete?</string>
+    <string name="complete_child_details">Complete Child Details</string>
+    <string name="calculate_assessment_age">Calculate assessment age</string>
+    <string name="chronological_age">Chronological age</string>
+    <string name="corrected_age">Corrected age</string>
+    <string name="age_applicable_note">Corrected age is used for children born prematurely under 24 months.</string>
+    <string name="age_appropriate_question_set">Loading age-appropriate question set</string>
+    <string name="assessment_introduction">Assessment Introduction</string>
+    <string name="assessment_intro_body">Five categories, about 10–15 minutes, a few simple items may be needed. You can save and resume at any time. This is screening — not a diagnosis.</string>
+    <string name="concern_check">Concern Check</string>
+    <string name="category_overview">Category Overview</string>
+    <string name="category_introduction">Category Introduction</string>
+    <string name="what_will_be_checked">What will be checked</string>
+    <string name="start_category">Start category</string>
+    <string name="question_card">Question</string>
+    <string name="save_answer_automatically">Answer saved automatically</string>
+    <string name="more_questions_in_category">More questions in this category?</string>
+    <string name="category_review">Category Review</string>
+    <string name="answered_count">Answered</string>
+    <string name="change_answer">Change an answer</string>
+    <string name="assessment_review">Assessment Review</string>
+    <string name="submit_assessment">Submit assessment</string>
+    <string name="step_module_complete">STEP Module Complete</string>
+    <string name="continue_to_next_module">Continue to next module</string>
+    <string name="save_draft_exit">Save as draft &amp; exit</string>
+    <string name="save_and_resume">Save and resume later</string>
+    <string name="screening_not_diagnosis">This is screening — not a diagnosis.</string>
+    <string name="progress_completed">%1$d of %2$d completed</string>
+
+    <!-- Categories -->
+    <string name="cat_gross_motor">Gross Motor</string>
+    <string name="cat_gross_motor_desc">Posture, sitting, standing, walking and movement</string>
+    <string name="cat_fine_motor">Fine Motor</string>
+    <string name="cat_fine_motor_desc">Reach, grasp, transfer, drawing and hand use</string>
+    <string name="cat_communication">Communication</string>
+    <string name="cat_communication_desc">Sounds, words, understanding, gestures and interaction</string>
+    <string name="cat_social_emotional">Social / Emotional</string>
+    <string name="cat_social_emotional_desc">Eye contact, response, play, interest and relationships</string>
+    <string name="cat_nutrition">Nutrition</string>
+    <string name="cat_nutrition_desc">Growth, feeding, dietary diversity, supplements and feeding concerns</string>
+
+    <!-- Responses -->
+    <string name="response_yes_observed">Yes, observed</string>
+    <string name="response_not_yet">Not yet</string>
+    <string name="response_not_sure">Not sure</string>
+    <string name="response_could_not_try">Could not try today</string>
+    <string name="response_achieved">Achieved</string>
+    <string name="response_not_achieved">Not achieved</string>
+    <string name="response_not_observed">Not observed</string>
+    <string name="response_unresolved">Saved as unresolved</string>
+    <string name="evidence_source">Evidence source</string>
+    <string name="evidence_observation">Direct observation</string>
+    <string name="evidence_caregiver">Caregiver report</string>
+    <string name="play_audio">Read aloud</string>
+    <string name="replay">Replay</string>
+
+    <!-- Growth / Nutrition -->
+    <string name="growth_measurements">Growth Measurements</string>
+    <string name="measurement_date">Measurement date</string>
+    <string name="weight">Weight</string>
+    <string name="height_length">Length / height</string>
+    <string name="head_circumference">Head circumference</string>
+    <string name="feeding_nutrition_questions">Feeding &amp; Nutrition Questions</string>
+    <string name="feeding_status">Feeding status</string>
+    <string name="dietary_diversity">Dietary diversity</string>
+    <string name="meal_frequency">Meal frequency</string>
+    <string name="supplements">Supplements</string>
+    <string name="feeding_concerns">Feeding concerns</string>
+    <string name="calculate_dq">Developmental Quotient (DQ)</string>
+    <string name="dq_formula">(Developmental Age ÷ Chronological Age) × 100</string>
+    <string name="growth_charts">Growth charts</string>
+
+    <!-- Module 2 -->
+    <string name="attention_module">Attention &amp; Vision</string>
+    <string name="attention_module_desc">Camera-based attention, gaze and visual engagement check</string>
+    <string name="attention_intro_title">Attention &amp; Gaze Check</string>
+    <string name="attention_intro_body">We will show your child short, friendly videos and observe where they look and how they respond. Keep the phone steady, about an arm\'s length away, in a calm and well-lit place.</string>
+    <string name="attention_start">Start attention check</string>
+    <string name="attention_stop">Stop</string>
+    <string name="attention_camera_permission">Camera permission is needed for this module.</string>
+    <string name="attention_grant_camera">Grant camera access</string>
+    <string name="attention_task_looking">Look at the screen</string>
+    <string name="attention_task_name">Responding to name</string>
+    <string name="attention_task_shift">Shifting attention</string>
+    <string name="attention_result">Attention result</string>
+    <string name="attention_inconclusive">Not enough data — please try again</string>
+    <string name="attention_confidence">Data confidence</string>
+    <string name="attention_engagement">Visual engagement</string>
+    <string name="attention_social">Social attention</string>
+    <string name="attention_onscreen">Time looking at screen</string>
+    <string name="attention_blink">Blink rate</string>
+    <string name="attention_frames_valid">Valid frames</string>
+    <string name="attention_movement_task">General movement observation</string>
+    <string name="attention_movement_task_desc">For infants under 5 months we observe spontaneous movements instead of gaze. Lay the baby on their back, awake, and record for 2–3 minutes.</string>
+
+    <!-- Vitamin D / Module 3 -->
+    <string name="vitamin_d_module">Vitamin D Risk</string>
+    <string name="vitamin_d_risk">Vitamin D deficiency risk</string>
+    <string name="vitamin_d_risk_low">Low risk</string>
+    <string name="vitamin_d_risk_moderate">Moderate risk</string>
+    <string name="vitamin_d_risk_high">High risk</string>
+    <string name="vitamin_d_disclaimer">This estimates risk only. It is not a blood test and cannot diagnose a deficiency.</string>
+    <string name="composite_risk_score">Composite Risk Score</string>
+    <string name="report_generation">Report Generation</string>
+    <string name="share_report">Share report</string>
+
+    <!-- Tracking -->
+    <string name="vaccination_status">Vaccination status</string>
+    <string name="due">Due</string>
+    <string name="given">Given</string>
+    <string name="overdue">Overdue</string>
+    <string name="upcoming">Upcoming</string>
+
+    <string name="offline_banner">You are offline. Data will be saved on this device.</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Permissions -->
+    <string name="permissions_title">Permissions</string>
+    <string name="permissions_subtitle">Here is exactly what we ask for, why, and where it is used. You stay in control.</string>
+    <string name="permissions_camera">Camera</string>
+    <string name="permissions_camera_why">To watch how your child looks at the screen and how their attention shifts.</string>
+    <string name="permissions_camera_use">Used only during the 30-second Attention &amp; Gaze check. Frames are analysed on the phone and never leave it.</string>
+    <string name="permissions_notifications">Notifications</string>
+    <string name="permissions_notifications_why">To remind you about check-ups, vaccinations and follow-up screening dates.</string>
+    <string name="permissions_notifications_use">Used for local reminders only. No promotional messages.</string>
+    <string name="permissions_location">Location (optional)</string>
+    <string name="permissions_location_why">Health workers can tag a home visit or Anganwadi centre.</string>
+    <string name="permissions_location_use">Optional — you can type the village or area instead. You can skip this.</string>
+    <string name="permissions_optional">Optional</string>
+    <string name="permissions_dialog_hint">Tap \u201cAllow\u201d on the system dialog to continue.</string>
+    <string name="permissions_allow">While using the app</string>
+    <string name="permissions_dont_allow">Don\u2019t allow</string>
+    <string name="permissions_settings_hint">You can change these any time in Settings → Apps → Poshan → Permissions.</string>
+    <string name="permissions_open_settings">Open settings</string>
+
+    <!-- Home -->
+    <string name="home_add_hint">Add a child to start a screening in under 10 minutes.</string>
+    <string name="home_sessions">Sessions</string>
+    <string name="home_dq">DQ</string>
+    <string name="home_age">Age</string>
+    <string name="home_cloud_backup">Cloud backup</string>
+    <string name="home_cloud_auto">Auto-syncs when you are online</string>
+    <string name="home_cloud_syncing">Syncing…</string>
+    <string name="home_step_subtitle">5 categories, about 10 minutes</string>
+    <string name="home_attention_subtitle">Camera-based attention &amp; gaze check</string>
+    <string name="home_vitd_subtitle">Non-invasive deficiency risk</string>
+    <string name="home_immunization_subtitle">NIS + IAP schedule</string>
+    <string name="home_report_subtitle">Full screening summary</string>
+    <string name="home_history">History</string>
+    <string name="home_what_we_check">What we check</string>
+    <string name="home_measure">What is measured</string>
+
+    <!-- Guide -->
+    <string name="guide_categories_title">Five screening categories</string>
+    <string name="guide_categories_body">Gross motor, fine motor, communication, social-emotional and nutrition — age-appropriate at every step.</string>
+    <string name="guide_offline_title">Works fully offline</string>
+    <string name="guide_offline_body">Screen at home, at the Anganwadi centre or at a health facility. Your data syncs when the internet returns.</string>
+    <string name="guide_screening_title">Screening, not diagnosis</string>
+    <string name="guide_screening_body">Results guide you on when to seek a professional review. They never replace a doctor.</string>
+
+    <!-- Misc -->
+    <string name="language_tamil">தமிழ்</string>
+    <string name="change_language">Change language</string>
+    <string name="child_details_title">Child details</string>
+    <string name="screening_title">Screening</string>
+    <string name="categories_title">Categories</string>
+    <string name="review_title">Review</string>
+    <string name="result_title">Result</string>
+    <string name="report_title">Report</string>
+    <string name="vitamin_d_intro">A short set of questions about sun exposure and diet. This estimates risk only — it is not a blood test.</string>
+    <string name="vitamin_d_infant_note">Infants under 12 months are at higher risk, especially if exclusively breastfed without a supplement.</string>
+    <string name="attention_measure_engagement">Visual engagement</string>
+    <string name="attention_measure_engagement_desc">How long your child keeps looking at the screen</string>
+    <string name="attention_measure_social">Social attention</string>
+    <string name="attention_measure_social_desc">Preference for faces over objects</string>
+    <string name="attention_measure_sustained">Sustained attention</string>
+    <string name="attention_measure_sustained_desc">Average length of a steady look</string>
+    <string name="attention_measure_blink">Blink rate</string>
+    <string name="attention_measure_blink_desc">Alertness and fatigue signal</string>
+    <string name="attention_gaze_detail">Gaze detail</string>
+    <string name="attention_fixations">Fixations</string>
+    <string name="attention_avg_fixation">Avg fix.</string>
+    <string name="attention_centre_focus">Centre focus</string>
+    <string name="attention_scan_spread">Scan spread</string>
+    <string name="attention_how_to_read">How to read this</string>
+    <string name="attention_how_to_read_body">Higher engagement and longer steady looks are typical for this age. Very short looks, frequent scanning away from the screen or a very low number of valid frames can indicate the child was tired, distracted — or that the room was too dark. Repeat in a calm, well-lit place before drawing conclusions.</string>
+    <string name="progress_of">%1$d of %2$d completed</string>
+    <string name="questions_label">Questions</string>
+    <string name="time_label">Time</string>
+    <string name="try_activity_hint">Try the activity with your child if possible. Not a good day? Choose \u201cCould not try today\u201d.</string>
+    <string name="why_this_score">Why this score</string>
+    <string name="domains_label">Domains</string>
+    <string name="overall_risk">Overall risk</string>
+    <string name="worst_z">Worst z-score</string>
+    <string name="share_report_subject">Poshan screening report</string>
+
+    <!-- Consent + login detail -->
+    <string name="consent_bullet_device">Gaze and video are processed on this device only</string>
+    <string name="consent_bullet_no_upload">No raw video or images are ever uploaded</string>
+    <string name="consent_bullet_offline">You can use it fully offline, delete data any time</string>
+    <string name="consent_bullet_permissions">We ask for camera, notifications and (optionally) location</string>
+    <string name="login_subtitle">Sign in to sync across devices, or continue offline without an account.</string>
+    <string name="guest_mode_note">Guest mode keeps everything on this device. You can sign in later.</string>
+    <string name="allow_app_to_use">Allow Poshan to use %1$s?</string>
+    <string name="start">Start</string>
+    <string name="finishing">Finishing</string>
+    <string name="face_label">Face</string>
+    <string name="detected">Detected</string>
+    <string name="searching">Searching</string>
+    <string name="frames_label">Frames</string>
+    <string name="duration_label">Duration</string>
+    <string name="distance_label">Distance</string>
+    <string name="trials_label">Trials</string>
+    <string name="before_you_start">Before you start</string>
+    <string name="sustained_label">Sustained</string>
+    <string name="response_to_name">Response to name</string>
+    <string name="name_latency">Name latency</string>
+    <string name="disengagement">Disengagement</string>
+    <string name="shift_success">Shift success</string>
+    <string name="prompt_call_name">Say your child\u2019s name in a clear, friendly voice now.</string>
+    <string name="prompt_stay_quiet">Stay quiet — let your child look around.</string>
+    <string name="prompt_steady">Stay quiet and keep the phone steady.</string>
+    <string name="attention_restart">Restart from the beginning</string>
+    <string name="response_yes">Yes</string>
+    <string name="response_maybe">Maybe, sometimes</string>
+    <string name="response_no">No, not yet</string>
+    <string name="about_title">How Poshan calculates</string>
+    <string name="about_action">How the app calculates</string>
+    <string name="read_aloud">Read this page aloud</string>
+    <string name="read_aloud_stop">Stop reading</string>
+    <string name="early_markers_title">What you have noticed</string>
+    <string name="early_markers_start">Start</string>
+    <string name="early_markers_done">Done</string>
+    <string name="next_step_of">Step %1$d of %2$d</string>
+    <string name="view_report">View report</string>
+    <string name="why_question">Why?</string>
+    <string name="permissions_allow_all">Allow all</string>
+    <string name="notif_channel_vaccines">Vaccine reminders</string>
+    <string name="notif_channel_vaccines_desc">Reminders when a vaccine dose is due or overdue</string>
+    <string name="notif_vaccine_overdue_title">%1$s has a vaccine due</string>
+    <string name="notif_vaccine_due_title">Vaccine coming up for %1$s</string>
+    <plurals name="notif_vaccine_overdue_body">
+        <item quantity="one">%1$d dose is overdue: %2$s. Visit your Anganwadi centre or health centre.</item>
+        <item quantity="other">%1$d doses are overdue: %2$s. Visit your Anganwadi centre or health centre.</item>
+    </plurals>
+    <plurals name="notif_vaccine_due_body">
+        <item quantity="one">%1$d dose is due soon: %2$s.</item>
+        <item quantity="other">%1$d doses are due soon: %2$s.</item>
+    </plurals>
+</resources>

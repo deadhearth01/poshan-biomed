@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Baby on a calibrated scale: undressed/single layer, reading taken at eye level. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="140dp"
+    android:viewportWidth="240"
+    android:viewportHeight="140">
+
+    <!-- scale tray -->
+    <path android:fillColor="#E4F5F0" android:pathData="M40,84h160v20H40z" />
+    <path android:fillColor="#0E6B5C" android:pathData="M36,80h168v6H36z" />
+
+    <!-- baby lying on the tray -->
+    <path android:fillColor="#FFD9A8" android:pathData="M74,72m-12,0a12,12 0 1,0 24,0a12,12 0 1,0 -24,0" />
+    <path android:fillColor="#9BE7D2" android:pathData="M88,64h62a9,9 0 0 1 9,9v6a9,9 0 0 1 -9,9H88z" />
+    <path android:fillColor="#FFD9A8" android:pathData="M156,70h26v14h-26z" />
+    <path android:fillColor="#2B2B2B" android:pathData="M78,68a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+
+    <!-- dial -->
+    <path android:fillColor="#FFFFFF" android:pathData="M120,26m-24,0a24,24 0 1,0 48,0a24,24 0 1,0 -48,0" />
+    <path android:fillColor="#0E6B5C" android:pathData="M120,2a24,24 0 0 1 24,24h-48a24,24 0 0 1 24,-24z" />
+    <path android:fillColor="#FFFFFF" android:pathData="M120,26m-18,0a18,18 0 1,0 36,0a18,18 0 1,0 -36,0" />
+    <!-- needle -->
+    <path android:fillColor="#C4462A" android:pathData="M119,26l3,-16 3,16z" />
+    <path android:fillColor="#14201D" android:pathData="M120,26m-3,0a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+
+    <!-- stand -->
+    <path android:fillColor="#0E6B5C" android:pathData="M116,48h8v32h-8z" />
+</vector>

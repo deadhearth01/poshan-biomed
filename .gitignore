@@ -1,0 +1,66 @@
+# ---------------------------------------------------------------------------
+# Secrets and machine-local config
+# ---------------------------------------------------------------------------
+# local.properties holds the Android SDK path AND the Appwrite backend config
+# (endpoint, project id, database id). build.gradle.kts resolves those keys from
+# here so they never need to be committed.
+local.properties
+secrets.properties
+*.keystore
+*.jks
+*.p12
+*.pem
+*.key
+google-services.json
+keystore.properties
+
+# ---------------------------------------------------------------------------
+# Build output
+# ---------------------------------------------------------------------------
+build/
+.gradle/
+.cxx/
+captures/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+output-metadata.json
+
+# Archived release builds. Several gigabytes of historical APKs — the artefacts
+# belong in Releases, not in git history.
+apks/
+
+# ---------------------------------------------------------------------------
+# Working directories
+# ---------------------------------------------------------------------------
+# Extracted artwork batches. The delivered images that the app actually uses are
+# committed under android/app/src/main/res/; these are the unprocessed originals
+# and the zips they came from.
+_img_new/
+_img_onetime/
+_img_tmp/
+reve_images_*.zip
+
+# ---------------------------------------------------------------------------
+# Crash and profiling dumps
+# ---------------------------------------------------------------------------
+hs_err_pid*.log
+replay_pid*.log
+*.hprof
+
+# ---------------------------------------------------------------------------
+# IDE
+# ---------------------------------------------------------------------------
+.idea/
+*.iml
+.vscode/
+.kotlin/
+
+# ---------------------------------------------------------------------------
+# OS
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini

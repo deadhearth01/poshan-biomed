@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="poshan_window_bg">#FFFBFE</color>
+    <color name="poshan_window_bg_dark">#101418</color>
+    <color name="ic_launcher_background">#2E7D6B</color>
+</resources>
